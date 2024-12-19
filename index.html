@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Trusted Travel Agent</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#packages">Our Package</a></li>
+      <li><a href="#contact">Call Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Banner Section -->
+  <section id="home" class="banner">
+    <div class="slides">
+      <div class="slide active" style="background-image: url('https://via.placeholder.com/1200x500');">
+        <h2>Your Happiness is Our Happiness</h2>
+      </div>
+      <div class="slide" style="background-image: url('https://via.placeholder.com/1200x500/ff7');">
+        <h2>Explore the World with Us</h2>
+      </div>
+      <div class="slide" style="background-image: url('https://via.placeholder.com/1200x500/77f');">
+        <h2>Trusted Travel Partner</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Package Section -->
+  <section id="packages">
+    <h2>Our Packages</h2>
+    <div class="package">
+      <h3>Bali Tour</h3>
+      <p>Enjoy the beauty of Bali beaches and culture.</p>
+    </div>
+    <div class="package">
+      <h3>Yogyakarta Tour</h3>
+      <p>Experience the historical and cultural heritage of Yogyakarta.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="destination">What are you interested in?</label>
+      <select id="destination" name="destination" required>
+        <option value="">Select option</option>
+        <option value="bali">Bali Tour</option>
+        <option value="yogyakarta">Yogyakarta Tour</option>
+      </select>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
